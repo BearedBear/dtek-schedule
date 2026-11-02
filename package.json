@@ -6,7 +6,8 @@
   "main": "./src/schedule.js",
   "scripts": {
     "start": "node --env-file=.env ./src/schedule.js",
-    "watch": "node --env-file=.env --watch ./src/schedule.js"
+    "watch": "node --env-file=.env --watch ./src/schedule.js",
+    "test": "node --test"
   },
   "dependencies": {
     "playwright": "^1.56.1"
